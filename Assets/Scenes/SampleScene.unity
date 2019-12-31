@@ -203,7 +203,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2072100906
+--- !u!1 &610415695
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,40 +211,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2072100908}
-  - component: {fileID: 2072100907}
+  - component: {fileID: 610415697}
+  - component: {fileID: 610415696}
   m_Layer: 0
-  m_Name: Graph
+  m_Name: GraphManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2072100907
+--- !u!114 &610415696
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072100906}
+  m_GameObject: {fileID: 610415695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129738330aaad384ea4dafed89811777, type: 3}
+  m_Script: {fileID: 11500000, guid: e3cda1ca8f3c4d4a1a0293547cf86610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VertexPrefab: {fileID: 2092360355358034822, guid: ff4df2988340b6d4a867d094282c1723,
-    type: 3}
-  EdgePrefab: {fileID: 7875302417913001656, guid: 91d5dab7c0ce7924e80f573588dbbe37,
-    type: 3}
+  Graph: {fileID: 3591595784482219920, guid: 914ca69ad4ad3bf57bed0c6f4ea64b8e, type: 3}
   VertexCount: 10
   EdgeCount: 30
---- !u!4 &2072100908
+--- !u!4 &610415697
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072100906}
+  m_GameObject: {fileID: 610415695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}

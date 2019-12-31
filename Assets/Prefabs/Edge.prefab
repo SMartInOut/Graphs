@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 165712823567686444}
   - component: {fileID: 7423749888492621854}
+  - component: {fileID: 7170159765391425774}
   - component: {fileID: 4255499970446548251}
   m_Layer: 0
   m_Name: Edge
@@ -126,8 +127,26 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!68 &7170159765391425774
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875302417913001656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0.2
+  m_Points:
+  - {x: 0, y: 0}
+  - {x: 1, y: 1}
 --- !u!114 &4255499970446548251
 MonoBehaviour:
   m_ObjectHideFlags: 0
